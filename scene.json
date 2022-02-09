@@ -1,39 +1,45 @@
 {
   "display": {
     "title": "AJC AR/VR",
-    "description": "Metaverse Portfolio",
-    "navmapThumbnail": "images/scene-thumbnail.png",
-    "favicon": "favicon_asset"
-  },
-  "contact": {
-    "name": "ajc",
-    "email": ""
+    "favicon": "favicon_asset",
+    "navmapThumbnail": "scene-thumbnail.png"
   },
   "owner": "",
+  "contact": {
+    "name": "aj#88fd",
+    "email": ""
+  },
+  "main": "bin/game.js",
+  "tags": [],
   "scene": {
     "parcels": [
       "-128,-37"
     ],
     "base": "-128,-37"
   },
-  "requiredPermissions": [],
-  "main": "bin/game.js",
-  "tags": [],
-  "spawnPoints": [
-    {
-      "name": "spawn1",
-      "default": true,
-      "position": {
-        "x": 0,
-        "y": 2,
-        "z": 0
-      },
-      "cameraTarget": {
-        "x": 8,
-        "y": 1,
-        "z": 8
-      }
+  "communications": {
+    "type": "webrtc",
+    "signalling": "https://signalling-01.decentraland.org"
+  },
+  "policy": {
+    "contentRating": "E",
+    "fly": true,
+    "voiceEnabled": true,
+    "blacklist": [],
+    "teleportPosition": ""
+  },
+  "source": {
+    "version": 1,
+    "origin": "builder",
+    "projectId": "50205d9b-7f0f-4fd8-915c-4ae9e936dc6d",
+    "point": {
+      "x": 0,
+      "y": 0
+    },
+    "rotation": "east",
+    "layout": {
+      "rows": 1,
+      "cols": 1
     }
-  ],
-  "featureToggles": {}
+  }
 }
