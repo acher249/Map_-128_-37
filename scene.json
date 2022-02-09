@@ -1,7 +1,7 @@
 {
   "display": {
-    "title": "Elevator City",
-    "description": "Hope you like going up and down",
+    "title": "AJC AR/VR",
+    "description": "Metaverse Portfolio",
     "navmapThumbnail": "images/scene-thumbnail.png",
     "favicon": "favicon_asset"
   },
@@ -12,9 +12,9 @@
   "owner": "",
   "scene": {
     "parcels": [
-      "20,-141"
+      "-128,-37"
     ],
-    "base": "20,-141"
+    "base": "-128,-37"
   },
   "requiredPermissions": [],
   "main": "bin/game.js",
